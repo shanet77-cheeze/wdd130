@@ -34,10 +34,39 @@
         /* Select by id, navigation */
 
         /* Select by class, red/blue paragraphs */
-        .pirate{ border: solid black 1cm  }
+        .pirate{ border: solid black .3cm  }
         .cupcake{border: dotted palevioletred .5cm}
 
         /* Pseudo classes, navigation on hover */
+
+        nav {
+            background: peachpuff;
+            width: 75%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 30px 0 0;
+
+        }
+
+        nav a {
+            text-decoration: none;
+            color: blueviolet;
+            padding: 37px;
+        }
+
+        nav a:hover {
+            background: orangered;
+            color: darkslategrey;
+        }
+
+        a:visited {
+            color: lightgoldenrodyellow;
+        }
 
     </style>
 </head>
@@ -84,7 +113,7 @@
     <!-- Navigation using unordered list element -->
     <nav>
         <ul>
-            <li>Link One</li>
+            <li><a href="#">Link One<</a>/li>
             <li>Link Two</li>
             <li>Link Three</li>
             <li>Link Four</li>
