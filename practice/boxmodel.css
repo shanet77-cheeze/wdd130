@@ -1,0 +1,46 @@
+body {
+    background: salmon;
+}
+
+#wrapper {
+    width: 75%;
+    margin: 0 auto;
+    background-color: crimson;
+    padding: 30px;
+}
+
+.qbox1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    border: 25px solid black;
+    padding: 10px 30px; 
+    width: 500px;
+    background: #152EFF;
+    border-radius: 90px;
+    color: yellow;
+
+}
+
+.qbox1, .qbox2, .qbox3 {
+    box-sizing: border-box;
+}
+
+.qbox2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    border: 40px dotted white;
+    padding: 30px 50px; 
+    width: 500px;
+    background: lightblue;
+    border-radius: 45px;
+}
+
+.qbox3 {
+    margin: 20px;
+    border: 30px dashed burlywood;
+    padding: 30px 50px; 
+    width: 500px;
+    background: tan;
+    border-radius: 17px;
+    font-family: "Quicksand", sans-serif;
+}
