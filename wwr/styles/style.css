@@ -16,6 +16,8 @@ h2 {
     align-self: center;
 }
 
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -28,6 +30,21 @@ nav a {
     text-decoration: none;
     padding: 35px;
 
+}
+
+#hero2 {
+    text-align: center;
+}
+
+#hero2-message {
+    text-align: center;
+}
+
+#grandma {
+    background-color: #85ffa5;
+    border: solid 10px black;
+    color: black;
+    text-align: center;
 }
 
 nav {
@@ -73,6 +90,10 @@ main section {
     background-color: #c9181f;
     grid-column: 1 / 11;
     grid-row: 4 / 9;
+}
+
+.caption {
+    color: #c9181f;
 }
 
 body {
