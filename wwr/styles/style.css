@@ -38,6 +38,8 @@ nav a {
 
 #hero2-message {
     text-align: center;
+    display: block;
+    padding: 50px;
 }
 
 #grandma {
