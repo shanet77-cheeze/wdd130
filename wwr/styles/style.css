@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Gowun+Batang:wght@400;700&display=swap');
+
 body {
     background: peachpuff;
     font-family: "Gowun Dodum", sans-serif;
@@ -8,6 +10,10 @@ body {
 
 h2 {
     margin: 0;
+}
+
+p {
+    font-family: Cabin, Helvetica, sans-serif;
 }
 
 #logo_link {
@@ -34,6 +40,7 @@ nav a {
 
 #hero2 {
     text-align: center;
+    padding: 15px;
 }
 
 #hero2-message {
