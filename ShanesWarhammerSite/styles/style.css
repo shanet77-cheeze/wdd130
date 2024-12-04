@@ -35,7 +35,39 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    align-items: center; /* Vertically centers items in the nav */
+    justify-content: space-between; /* Ensures space between logo and links */
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+
+nav .logo {
+    width: 12%; /* Adjust percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center; /* Centers the links within the container */
+    gap: 50px;
+}
+
+.nav-links a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Eagle Lake", serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.nav-links a:hover {
+    background-color: pink;
+    color: black;
 }
 
 .logo {
@@ -55,11 +87,39 @@ nav {
 
 }
 
+.lore-title {
+    color: black;
+    font-family: "Iceland", serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.build-title {
+    color: black;
+    font-family: "Iceland", serif;
+    font-size: 30px;
+    text-align: center;
+}
+
 #hero1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+#hero2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#hero3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
 }
 
 #p1 {
@@ -69,3 +129,111 @@ nav {
     font-family: "Syne Mono", serif; 
 
 }
+
+footer {
+    background-color: #A42212;
+    color: white;
+    padding: 25px 50px;
+    font-family: "Syne Mono", serif;
+    font-size: 18px;
+    border-radius: 8px;
+    position: relative; /* Required for positioning the logo */
+}
+
+footer a:hover {
+    color: violet;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #a3ff87;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-logo {
+    width: 9%; /* Adjust size of logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Space between text and logo */
+}
+
+.footer-content {
+    display: flex; /* Lay items out horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer p {
+    margin-right: 20px; /* Add space between the paragraphs and the logo */
+}
+
+.lore-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lore-item {
+    text-align: center;
+    border: 2px solid #396E94; /* Border around each section */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.lore-item img {
+    width: 100%; /* Ensures image takes full width of the item */
+    max-width: 300px; /* Keeps image size within a max limit */
+    height: auto;
+    margin: 10px 0;
+}
+
+.lore-item h2 {
+    font-size: 24px;
+    color: #396E94;
+    font-family: "Syne Mono", serif; 
+
+}
+
+.lore-item p {
+    font-size: 20px;
+    color: #333;
+    font-family: "Iceland", serif;
+
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between the images */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+.image-item img {
+    width: 48%; /* Adjusts the width of the images to sit side by side */
+    display: block;
+    border-radius: 8px; /* Optional: adds rounded corners to the images */
+}
+
+
+.build-description {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-family: "Syne Mono", serif;
+    line-height: 1.6;
+    padding: 0 10%;
+}
+
+
