@@ -100,6 +100,33 @@ nav .logo {
 
 }
 
+#Man-lore {
+    color: gold;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 23px;
+}
+
+#tyranid-lore {
+    color: #DA70D6	;
+    background-color: black;
+    padding: 15px;
+}
+
+#orks-lore {
+    color: #90EE90;
+    background: #A52A2A;
+    padding: 15px;
+}
+
+#chaos-lore {
+    color: #e20000;
+    background-color: black;
+    padding: 15px;
+    border-radius: 8px;
+}
+
 .lore-title {
     color: black;
     font-family: "Iceland", serif;
@@ -135,6 +162,8 @@ nav .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    padding: 50px;
 
 }
 
@@ -243,6 +272,15 @@ footer p {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+
+.lore-title {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+
 }
 
 .lore-item {
