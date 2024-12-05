@@ -20,6 +20,12 @@ font-family: "Syne Mono", serif;              (spooky sci fi)
 
    #A42212 (dark red)
 
+   #373737      dark grey
+
+   #16193e           night lords dark blue
+
+   #e20000  chaos daemon red
+
    white
    black
 
@@ -29,7 +35,7 @@ font-family: "Syne Mono", serif;              (spooky sci fi)
 
 
 body {
-    background-color: #b4ccc3;
+    background-color: #396E94;
 }
 
 
@@ -53,6 +59,9 @@ nav .logo {
     display: flex;
     align-items: center; /* Centers the links within the container */
     gap: 50px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 .nav-links a {
@@ -62,11 +71,12 @@ nav .logo {
     font-family: "Eagle Lake", serif;
     font-size: 20px;
     padding: 10px;
+    border-color: white;
 }
 
 
 .nav-links a:hover {
-    background-color: pink;
+    background-color: #E7C24F;
     color: black;
 }
 
@@ -80,10 +90,13 @@ nav .logo {
 }
 
 .home-title {
-    color: black;
+    color: white;
     font-family: "Iceland", serif;
     font-size: 50px;
     text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
 
 }
 
@@ -100,6 +113,16 @@ nav .logo {
     font-size: 30px;
     text-align: center;
 }
+
+
+#hero-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 
 #hero1 {
     display: block;
@@ -123,15 +146,55 @@ nav .logo {
 }
 
 #p1 {
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     font-family: "Syne Mono", serif; 
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
 
 }
 
+#Milk {
+    color: white;
+    background-color: #373737;
+    font-family: "IM Fell French Canon", serif;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
+
+
+}
+
+#Cheeze {
+    background-color: #206832;
+    color: white;
+    text-align: center;
+    font-family: "Yuji Mai", serif;
+    font-size: 18px;
+    border-radius: 8px;
+
+}
+
+#Milk, #Cheeze {
+    padding: 15px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-links a.active {
+    background-color: #E7C24F;
+    color: black;
+}
+
+
+
 footer {
-    background-color: #A42212;
+    background-color: #16193e;
     color: white;
     padding: 25px 50px;
     font-family: "Syne Mono", serif;
@@ -141,15 +204,17 @@ footer {
 }
 
 footer a:hover {
-    color: violet;
+    color: #e20000;
+
 }
 
 footer p:hover {
-    text-decoration: underline;
+    font-style: italic;
+
 }
 
 footer a {
-    color: #a3ff87;
+    color: white;
     text-decoration: none;
     margin-right: 15px;
 }
