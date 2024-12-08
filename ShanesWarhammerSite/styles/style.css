@@ -113,12 +113,17 @@ nav .logo {
     color: #DA70D6	;
     background-color: black;
     padding: 15px;
+    border-radius: 6px;
+    font-size: 20px;
 }
 
 #orks-lore {
-    color: #90EE90;
-    background: #A52A2A;
+    color: #a60808;
+    background: #90EE90;
     padding: 15px;
+    font-family: "Yuji Mai", serif;
+    font-size: 22px;
+    border-radius: 11px;
 }
 
 #chaos-lore {
@@ -126,6 +131,8 @@ nav .logo {
     background-color: black;
     padding: 15px;
     border-radius: 8px;
+    font-size: 25px;
+
 }
 
 .lore-title {
@@ -271,7 +278,7 @@ footer p {
     grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
     gap: 20px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -292,11 +299,81 @@ footer p {
     border-radius: 8px;
 }
 
-.lore-item img {
-    width: 100%; /* Ensures image takes full width of the item */
-    max-width: 300px; /* Keeps image size within a max limit */
-    height: auto;
-    margin: 10px 0;
+.lore-item-man {
+    text-align: center;
+    border: 2px solid #396E94; /* Border around each section */
+    padding: 20px;
+    background-color: #373737;
+    color: white;
+    font-family: "Iceland", serif;
+    font-size: 30px;
+    border-radius: 8px;
+    width: 500px;
+    margin-left: -150px;
+}
+
+.lore-item-orks {
+
+    text-align: center;
+    border: 2px solid #396E94; /* Border around each section */
+    padding: 20px;
+    background-color: #da0e0e;
+    border-radius: 8px;
+    width: 500px;
+    margin-left: -5px;
+    font-family: "Yuji Mai", serif; 
+    font-size: 28px;
+
+
+
+}
+
+.lore-item-tyranids {
+    text-align: center;
+    border: 2px solid #396E94; /* Border around each section */
+    padding: 20px;
+    background-color: #5b0d76;
+    border-radius: 8px;
+    width: 500px;
+    margin-left: -150px;
+    color: #ecd6ff;
+    font-family: "Syne Mono", serif;
+    font-size: 27px;
+}
+
+
+.lore-item-chaos {
+
+    text-align: center;
+    border: 2px solid #396E94; /* Border around each section */
+    padding: 20px;
+    background-color: #370000;
+    border-radius: 8px;
+    width: 500px;
+    margin-left: -5px;
+    font-family: "IM Fell French Canon", serif;
+    font-size: 50px;
+    color: #e20000;
+
+
+
+}
+
+
+#orkimg {
+    width: 100%;
+}
+
+#manimg {
+    width: 100%;
+}
+
+#tyrimg {
+    width: 100%;
+}
+
+#chaosimg {
+    width: 100%;
 }
 
 .lore-item h2 {
