@@ -61,7 +61,7 @@ nav .logo {
     gap: 50px;
     border: 2px solid transparent;
     border-radius: 4px;
-    transition: all 0.3s ease;
+    transition: 2s;
 }
 
 .nav-links a {
@@ -72,6 +72,7 @@ nav .logo {
     font-size: 20px;
     padding: 10px;
     border-color: white;
+    transition: 0.4s;
 }
 
 
