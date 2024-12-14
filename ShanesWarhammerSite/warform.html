@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer form</title>
+    <script>
+        function handleSubmit(event){
+            event.preventDefault();
+
+            const firstName = document.getElementById("firstname").value;
+            const newsletter = document.getElementById("newsletter").checked;
+
+            alert(`You typed a First name: ${firstName}! The Emperor's blessing upon you! \nYour delivery is on its way! ${newsletter}`);
+        }
+
+    </script>
+
+    <style>
+
+        h1 {
+            color: #FF474C;
+            text-align: center;
+            background-color: #080808;
+            border-radius: 10px;
+            padding: 12px;
+            font-family: "Iceland", serif;
+            font-size: 39px;
+        }
+
+        form {
+
+background-color: black;
+width: 50%;
+margin: 0 auto;
+padding: 25px;
+border-radius: 26px;
+border: 19px double #a50004;
+color: #FF474C;
+font-family: "Syne Mono", serif; 
+font-size: 25px;
+padding-top: 21px;
+
+}
+
+body {
+    background-color: #16193e;
+
+}
+
+form input[type="text"]:hover,
+form input[type="email"]:hover,
+form input[type="tel"]:hover,
+form input[type="radio"]:hover,
+form input[type="checkbox"]:hover {
+    border-color: white; /* Changes border color when hovered */
+    background-color: black;
+    color: white;
+}
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Submit your information to share your Warhammer 40k army with our community</h1>
+
+    <form onsubmit="handleSubmit(event)">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" required>
+        <br><br>
+    
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" required>
+        <br><br>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+    
+        <label for="phone">Phone #</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+    
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+
+        <label for="genre">My 40k Faction</label>
+        <select id="genre" name="genre">
+            <option value="select">-- Select One --</option>
+            <option value="man">Imperium of Man</option>
+            <option value="ork">Orks</option>
+            <option value="Tyranid">Tyranids</option>
+            <option value="chaos">Chaos</option>
+            <option value="traitor">Traitor legions</option>
+            <option value="necrons">Necrons</option>
+            <option value="mechanicus">Adeptus Mechanicus</option>
+            <option value="eldar">Eldar</option>
+            <option value="darkeldar">Dark Eldar</option>
+            <option value="gene">Gene stealer cults</option>
+            <option value="tau">T'au Empire</option>
+
+    
+        </select>
+        <br><br>
+    
+        <label for="newsletter">Yes I would like a box of vomit mailed to my house every month</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <br><br>
+        <label for="updates">Yes I consent to having my data collected and sold by Shane's Warhammer Site</label>
+        <input type="checkbox" id="udapes" name="updates">
+        <br><br>
+    
+        
+    
+    
+        <button type="submit">Submit Form</button>
+    
+        
+    
+        
+    
+    
+    
+    
+    
+    
+    </form>
+    
+</body>
+</html>
